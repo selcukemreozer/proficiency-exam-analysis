@@ -5,10 +5,10 @@ Created on Tue Jan 24 23:45:38 2023
 @author: selcu
 """
 #%% file settings
-import tabula
+# import tabula
 import pandas as pd
 
-tabula.convert_into("jan_2023_proficiency.pdf", "jan_2023_proficiency.csv", output_format = "csv", pages = 'all')
+# tabula.convert_into("jan_2023_proficiency.pdf", "jan_2023_proficiency.csv", output_format = "csv", pages = 'all')
 df = pd.read_csv("jan_2023_proficiency.csv", encoding='latin1')
 
 #%% cleaning data
